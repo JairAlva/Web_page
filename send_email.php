@@ -11,12 +11,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
     // Send the email
     mail($to, $subject, $message, $headers);
-
-    // Send a response back to the client
-    echo "Message sent successfully!";
-} else {
-    // Return an error response if accessed directly without a POST request
-    http_response_code(400);
-    echo "Bad Request";
+    exit();
 }
 ?>
