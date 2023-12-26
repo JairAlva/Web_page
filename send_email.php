@@ -6,7 +6,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $message = $_POST["message"];
 
     // Configure your email settings
-    $to = "your_email@alalvamclio.uc3m.es";  // Replace with your email address
+    $to = "alalvam@clio.uc3m.es";  // Replace with your email address
     $headers = "From: $email";
 
     // Send the email
