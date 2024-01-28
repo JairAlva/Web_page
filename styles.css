@@ -1,0 +1,30 @@
+/* styles.css */
+
+#languageSwitchContainer {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    z-index: 2;
+}
+
+#welcomeTextContainer {
+    position: absolute;
+    bottom: 40%;
+    left: 10%;
+    z-index: 1;
+}
+
+/* Add any additional styles you may have inline here */
+
+/* Responsive styles */
+@media screen and (max-width: 600px) {
+    #languageSwitchContainer {
+        bottom: 10px;
+        left: 10px;
+    }
+
+    #welcomeTextContainer {
+        bottom: 30%;
+        left: 5%;
+    }
+}
